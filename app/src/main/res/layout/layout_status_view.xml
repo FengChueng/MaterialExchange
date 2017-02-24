@@ -1,0 +1,17 @@
+<com.airsaid.android_basicframework.widget.StatusLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:emptyBackgroundColor="#00000000"
+    app:emptyContentTextColor="#333333"
+    app:emptyTitleTextColor="#333333"
+    app:errorBackgroundColor="#00000000"
+    app:errorButtonTextColor="#333333"
+    app:errorContentTextColor="#333333"
+    app:errorTitleTextColor="#333333"
+    app:loadingBackgroundColor="#00000000">
+
+</com.airsaid.android_basicframework.widget.StatusLayout>
+

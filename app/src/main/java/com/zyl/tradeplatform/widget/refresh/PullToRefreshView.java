@@ -14,8 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.OverScroller;
 
-import com.airsaid.android_basicframework.R;
-
+import com.zyl.tradeplatform.R;
 
 /**
  * Created by Anthony on 2016/7/18.

@@ -3,7 +3,7 @@ package com.zyl.tradeplatform.widget.slideback;
 import android.app.Activity;
 import android.util.Log;
 
-import com.airsaid.android_basicframework.BuildConfig;
+import com.zyl.tradeplatform.BuildConfig;
 
 import java.util.LinkedList;
 

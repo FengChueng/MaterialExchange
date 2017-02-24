@@ -24,12 +24,12 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.drawable.Drawable;
 
-import com.airsaid.android_basicframework.widget.transform.internal.Utils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.Transformation;
 import com.bumptech.glide.load.engine.Resource;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapResource;
+import com.zyl.tradeplatform.widget.transform.internal.Utils;
 
 public class MaskTransformation implements Transformation<Bitmap> {
 

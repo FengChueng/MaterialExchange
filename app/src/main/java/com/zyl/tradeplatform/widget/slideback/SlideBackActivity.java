@@ -8,9 +8,10 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.airsaid.android_basicframework.BuildConfig;
-import com.airsaid.android_basicframework.R;
-import com.airsaid.android_basicframework.widget.StatusLayout;
+import com.zyl.tradeplatform.BuildConfig;
+import com.zyl.tradeplatform.R;
+import com.zyl.tradeplatform.widget.StatusLayout;
+
 
 /**
  * 这个Activity实现了可以滑动左侧边缘退出Activity的功能，类似iOS的交互行为。
@@ -130,7 +131,7 @@ public class SlideBackActivity extends ActivityInterfaceImpl implements SlideFra
         mSlideFrameLayout.addView(view, params);
 
         // 初始化
-        mSlideFrameLayout.setShadowResource(R.drawable.sliding_back_shadow);
+        mSlideFrameLayout.setShadowResource(R.mipmap.btn_title_back);
         mSlideFrameLayout.setSlideable(mSlideable);
         mSlideFrameLayout.setSlidingListener(this);
 

@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.airsaid.android_basicframework.R;
-import com.airsaid.android_basicframework.utils.UiUtils;
+import com.zyl.tradeplatform.R;
+import com.zyl.tradeplatform.utils.UiUtils;
 
 
 /**

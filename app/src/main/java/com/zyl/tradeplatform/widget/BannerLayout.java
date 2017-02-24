@@ -21,8 +21,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
 
-import com.airsaid.android_basicframework.R;
-import com.airsaid.android_basicframework.utils.ImageLoader;
+import com.zyl.tradeplatform.R;
+import com.zyl.tradeplatform.utils.ImageLoader;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

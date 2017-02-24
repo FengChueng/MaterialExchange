@@ -17,8 +17,8 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.airsaid.android_basicframework.R;
-import com.airsaid.android_basicframework.utils.LogUtils;
+import com.zyl.tradeplatform.R;
+import com.zyl.tradeplatform.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
