@@ -1,7 +1,11 @@
 package com.zyl.tradeplatform.base;
 
+import android.app.Activity;
+
 /**
- * Created by zhangyinglong on 2017/2/21.
+ * Created by Administrator on 2017/2/26.
  */
-public class BaseView {
+
+public interface BaseView {
+    Activity getActivity();
 }

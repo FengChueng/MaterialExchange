@@ -37,8 +37,8 @@ public class Api {
      * 获取 Api 实例（单例，使用默认服务器地址）
      * @return Api 对象
      */
-    public static Api getIns(){
-        return getIns(null);
+    public static Api getInstance(){
+        return getInstance(null);
     }
 
     /**
@@ -46,7 +46,7 @@ public class Api {
      * @param baseUrl 服务器地址
      * @return
      */
-    public static Api getIns(String baseUrl){
+    public static Api getInstance(String baseUrl){
         if (mInstance == null) {
             synchronized (Api.class){
                 if(mInstance == null){
