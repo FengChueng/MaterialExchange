@@ -65,5 +65,7 @@ dependencies {
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.6.1'
 
 
+    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
+
 
 }
