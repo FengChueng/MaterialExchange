@@ -3,13 +3,13 @@ package com.zyl.tradeplatform.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
+import com.zhy.autolayout.AutoLayoutActivity;
 import com.zyl.tradeplatform.MainActivity;
 import com.zyl.tradeplatform.R;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends AutoLayoutActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

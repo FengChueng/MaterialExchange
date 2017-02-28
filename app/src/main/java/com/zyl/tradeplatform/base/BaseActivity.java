@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -13,13 +12,20 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.zyl.tradeplatform.R;
+import com.zyl.tradeplatform.widget.slideback.SlideBackActivity;
 
 import butterknife.ButterKnife;
 
 /**
  * Created by zhangyinglong on 2017/2/21.
+ * 支持滑动左侧退出Activity
+ * extends SlideBackActivity
+ * setSlideable(true);//允许滑动左侧退出activity(默认)
+ *
+ * 支持自动适配
+ * SlideBackActivity extends AutoLayoutActivity
  */
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends SlideBackActivity {
     /* 日志标志 */
     protected final String TAG = this.getClass().getSimpleName();
 
@@ -32,7 +38,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getContentViewID());
         initView(savedInstanceState);
         ButterKnife.bind(this);
-
     }
 
     /**

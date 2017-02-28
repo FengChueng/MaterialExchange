@@ -11,7 +11,6 @@ import com.zyl.tradeplatform.bean.ResponseResult;
 import com.zyl.tradeplatform.bean.UserEntity;
 
 import io.reactivex.Observable;
-import io.reactivex.ObservableTransformer;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 

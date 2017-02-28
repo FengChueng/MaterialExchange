@@ -32,8 +32,4 @@ public abstract class BasePresenter<T extends BaseView> {
             mCompositeDisposable.clear();
         }
     }
-
-
-
-
 }

@@ -2,7 +2,8 @@ package com.zyl.tradeplatform.widget.slideback;
 
 import android.app.Application;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import com.zhy.autolayout.AutoLayoutActivity;
 
 /**
  * 这个类用来管理 activity 的栈
@@ -10,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
  * @author lihong
  * @since 2016/10/28
  */
-class ActivityInterfaceImpl extends AppCompatActivity implements ActivityInterface {
+class ActivityInterfaceImpl extends AutoLayoutActivity implements ActivityInterface {
 
     private Application.ActivityLifecycleCallbacks mActivityLifecycleCallbacks;
 
