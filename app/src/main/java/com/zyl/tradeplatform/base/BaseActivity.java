@@ -7,7 +7,10 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 
@@ -35,9 +38,20 @@ public abstract class BaseActivity extends SlideBackActivity {
         Log.d(TAG, "BaseActivity-->onCreate()");
         Bundle bundle = getIntent().getExtras();
         initParams(bundle);
-        setContentView(getContentViewID());
+        setContentView(getContentView());
         initView(savedInstanceState);
         ButterKnife.bind(this);
+    }
+
+    protected View getContentView() {
+        View contentView = null;
+        if (getLayoutID() != 0) {
+            contentView = LayoutInflater.from(this).inflate(getLayoutID(), null);
+            ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT
+                    , ViewGroup.LayoutParams.MATCH_PARENT);
+            contentView.setLayoutParams(params);
+        }
+        return contentView;
     }
 
     /**
@@ -60,7 +74,7 @@ public abstract class BaseActivity extends SlideBackActivity {
      * @return
      */
     @LayoutRes
-    protected abstract int getContentViewID();
+    protected abstract int getLayoutID();
 
 
     /**
